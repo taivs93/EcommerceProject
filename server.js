@@ -6,7 +6,7 @@ const server = app.listen(PORT,() => {
     console.log(`WSV Ecomerce starts with port: ${PORT}`);   
 })
 
-process.on('SIGINT', () => {
-    server.close(() => console.log('Exit Server Express'));
-    //notify.send()
-});
+// process.on('SIGINT', () => {
+//     server.close(() => console.log('Exit Server Express'));
+//     //notify.send()
+// });
